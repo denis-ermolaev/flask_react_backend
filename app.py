@@ -53,7 +53,7 @@ def users():
     )
 
 
-@app.get("/user/<int:id>")
+@app.get("/users/<int:id>")
 def user_get(id):
     """
     Возвращает пользователя по его ID.
